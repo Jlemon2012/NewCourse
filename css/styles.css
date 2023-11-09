@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Inline+One&family=PT+Serif&display=swap');
+
+.title,
+.title__details,
+.coffee__title,
+.dessert__title,
+.contact__info {
+    text-align: center;
+}
+
+.title__details {
+    font-style: italic;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: 'Lobster', sans-serif;
+    padding: 20px
+}
+
+h1,
+h2 {
+    font-family: 'Alumni Sans Inline One', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 55%;
+}
+
+.price {
+    text-align: right;
+    width: 40%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: white;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
